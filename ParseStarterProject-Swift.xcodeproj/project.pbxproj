@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E303F731D70CCE300A55A7F /* fblogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F721D70CCE300A55A7F /* fblogin.png */; };
+		6E303F751D70D1DD00A55A7F /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F741D70D1DD00A55A7F /* rock.jpg */; };
+		6E303F791D70D2F200A55A7F /* hiphop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F781D70D2F200A55A7F /* hiphop.jpg */; };
+		6E303F7B1D70D32B00A55A7F /* electro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F7A1D70D32B00A55A7F /* electro.jpg */; };
+		6E303F7D1D70D37C00A55A7F /* indie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F7C1D70D37C00A55A7F /* indie.jpg */; };
+		6E303F7F1D70D3C700A55A7F /* pop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F7E1D70D3C700A55A7F /* pop.jpg */; };
+		6E303F811D70D40900A55A7F /* jazz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E303F801D70D40900A55A7F /* jazz.jpg */; };
 		814C3ACA1B69877600E307BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC61B69877600E307BB /* Main.storyboard */; };
 		814C3ACB1B69877600E307BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC81B69877600E307BB /* Images.xcassets */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E303F721D70CCE300A55A7F /* fblogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogin.png; sourceTree = "<group>"; };
+		6E303F741D70D1DD00A55A7F /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		6E303F781D70D2F200A55A7F /* hiphop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiphop.jpg; sourceTree = "<group>"; };
+		6E303F7A1D70D32B00A55A7F /* electro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = electro.jpg; sourceTree = "<group>"; };
+		6E303F7C1D70D37C00A55A7F /* indie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indie.jpg; sourceTree = "<group>"; };
+		6E303F7E1D70D3C700A55A7F /* pop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pop.jpg; sourceTree = "<group>"; };
+		6E303F801D70D40900A55A7F /* jazz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jazz.jpg; sourceTree = "<group>"; };
 		814C3AC71B69877600E307BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		814C3AC81B69877600E307BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		814C3AC91B69877600E307BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				814C3AC81B69877600E307BB /* Images.xcassets */,
+				6E303F741D70D1DD00A55A7F /* rock.jpg */,
+				6E303F721D70CCE300A55A7F /* fblogin.png */,
+				6E303F7A1D70D32B00A55A7F /* electro.jpg */,
+				6E303F7C1D70D37C00A55A7F /* indie.jpg */,
+				6E303F801D70D40900A55A7F /* jazz.jpg */,
+				6E303F7E1D70D3C700A55A7F /* pop.jpg */,
+				6E303F781D70D2F200A55A7F /* hiphop.jpg */,
 				814C3AC91B69877600E307BB /* Info.plist */,
 			);
 			path = Resources;
@@ -172,6 +193,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
+				6E303F791D70D2F200A55A7F /* hiphop.jpg in Resources */,
+				6E303F7B1D70D32B00A55A7F /* electro.jpg in Resources */,
+				6E303F731D70CCE300A55A7F /* fblogin.png in Resources */,
+				6E303F811D70D40900A55A7F /* jazz.jpg in Resources */,
+				6E303F7D1D70D37C00A55A7F /* indie.jpg in Resources */,
+				6E303F7F1D70D3C700A55A7F /* pop.jpg in Resources */,
+				6E303F751D70D1DD00A55A7F /* rock.jpg in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

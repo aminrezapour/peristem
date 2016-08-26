@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YSL-GK-td5">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -16,11 +16,138 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zN-91-bO7">
+                                <rect key="frame" x="153" y="268" width="295" height="145"/>
+                                <state key="normal" image="fblogin.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="194" y="418"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fKi-lN-N7u">
+            <objects>
+                <viewController id="O7e-fU-vlG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LaQ-iW-y6h"/>
+                        <viewControllerLayoutGuide type="bottom" id="ulW-Tf-XCK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Jd-3R-X8F">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="amV-mL-TmC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jv0-mW-XXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2168" y="319"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8oj-Uk-JnQ">
+            <objects>
+                <viewController id="8vO-m5-8sy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uTG-EM-p5u"/>
+                        <viewControllerLayoutGuide type="bottom" id="hhj-AB-sFt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c6M-ci-L62">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riG-vD-vIU">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1471"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dzu-b6-r8z">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AnP-i9-yZb">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="rock.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uk-rE-t0M">
+                                                <rect key="frame" x="0.0" y="168" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="electro.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4p-n7-fZh">
+                                                <rect key="frame" x="0.0" y="336" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="indie.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjL-G8-rlL">
+                                                <rect key="frame" x="0.0" y="504" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="pop.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1N-Y7-YbN">
+                                                <rect key="frame" x="0.0" y="840" width="375" height="700"/>
+                                                <state key="normal" backgroundImage="hiphop.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KP-i7-stV">
+                                                <rect key="frame" x="0.0" y="672" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="jazz.jpg"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1540" id="fM6-WM-HJN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Dzu-b6-r8z" secondAttribute="bottom" id="35r-y9-tA5"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dzu-b6-r8z" secondAttribute="trailing" id="TNO-yd-MZt"/>
+                                    <constraint firstItem="Dzu-b6-r8z" firstAttribute="leading" secondItem="riG-vD-vIU" secondAttribute="leading" id="Xjb-FC-n9A"/>
+                                    <constraint firstItem="Dzu-b6-r8z" firstAttribute="top" secondItem="riG-vD-vIU" secondAttribute="top" id="uJv-s6-YVN"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hhj-AB-sFt" firstAttribute="top" secondItem="riG-vD-vIU" secondAttribute="bottom" id="Bfl-Hc-BSp"/>
+                            <constraint firstItem="riG-vD-vIU" firstAttribute="leading" secondItem="c6M-ci-L62" secondAttribute="leading" id="G5Q-Er-TBU"/>
+                            <constraint firstItem="Dzu-b6-r8z" firstAttribute="width" secondItem="c6M-ci-L62" secondAttribute="width" id="PWV-aM-aQz"/>
+                            <constraint firstAttribute="trailing" secondItem="riG-vD-vIU" secondAttribute="trailing" id="WqE-cD-qxQ"/>
+                            <constraint firstItem="riG-vD-vIU" firstAttribute="top" secondItem="uTG-EM-p5u" secondAttribute="bottom" id="gMS-Mk-jWP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="ATG-3x-J45"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1540"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydu-s1-IpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1529.5" y="-73"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zid-FY-wYR">
+            <objects>
+                <tabBarController id="YSL-GK-td5" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="bH6-WB-cvZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8vO-m5-8sy" kind="relationship" relationship="viewControllers" id="vNL-zP-ReZ"/>
+                        <segue destination="O7e-fU-vlG" kind="relationship" relationship="viewControllers" id="zYg-g5-m9D"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djy-5N-elX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="electro.jpg" width="830" height="369"/>
+        <image name="fblogin.png" width="480" height="230"/>
+        <image name="hiphop.jpg" width="375" height="702"/>
+        <image name="indie.jpg" width="666" height="295"/>
+        <image name="jazz.jpg" width="900" height="400"/>
+        <image name="pop.jpg" width="508" height="225"/>
+        <image name="rock.jpg" width="450" height="200"/>
+    </resources>
 </document>
