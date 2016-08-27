@@ -29,6 +29,113 @@
             </objects>
             <point key="canvasLocation" x="194" y="418"/>
         </scene>
+        <!--Select Genre-->
+        <scene sceneID="kED-Eg-T27">
+            <objects>
+                <viewController id="Osf-4O-uVP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MW1-SO-Z1E"/>
+                        <viewControllerLayoutGuide type="bottom" id="jnF-Y7-sgI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g0u-sj-ALZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFW-YX-qLk">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1427"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-mE-fht">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw9-ub-nil">
+                                                <rect key="frame" x="0.0" y="775" width="375" height="700"/>
+                                                <state key="normal" backgroundImage="hiphop.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdw-9i-noD">
+                                                <rect key="frame" x="0.0" y="-65" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="rock.jpg"/>
+                                                <connections>
+                                                    <segue destination="6Sf-Lc-bTL" kind="show" id="XcQ-JK-zuT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrr-4O-PAf">
+                                                <rect key="frame" x="0.0" y="103" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="electro.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7E-vh-iIq">
+                                                <rect key="frame" x="0.0" y="271" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="indie.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7M-pa-jRp">
+                                                <rect key="frame" x="0.0" y="439" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="pop.jpg"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urH-Vv-i7M">
+                                                <rect key="frame" x="0.0" y="607" width="375" height="168"/>
+                                                <state key="normal" backgroundImage="jazz.jpg"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1540" id="iVH-a1-F8P"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vDM-mE-fht" secondAttribute="bottom" id="Ahw-8d-T9K"/>
+                                    <constraint firstItem="vDM-mE-fht" firstAttribute="leading" secondItem="mFW-YX-qLk" secondAttribute="leading" id="Ejb-bz-yLu"/>
+                                    <constraint firstAttribute="trailing" secondItem="vDM-mE-fht" secondAttribute="trailing" id="OH7-vr-OEh"/>
+                                    <constraint firstItem="vDM-mE-fht" firstAttribute="top" secondItem="mFW-YX-qLk" secondAttribute="top" id="piN-zF-Kyr"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jnF-Y7-sgI" firstAttribute="top" secondItem="mFW-YX-qLk" secondAttribute="bottom" id="AP2-l1-2ss"/>
+                            <constraint firstItem="vDM-mE-fht" firstAttribute="width" secondItem="g0u-sj-ALZ" secondAttribute="width" id="OUf-xE-0wN"/>
+                            <constraint firstItem="mFW-YX-qLk" firstAttribute="leading" secondItem="g0u-sj-ALZ" secondAttribute="leading" id="UXx-mf-bXJ"/>
+                            <constraint firstItem="mFW-YX-qLk" firstAttribute="top" secondItem="MW1-SO-Z1E" secondAttribute="bottom" id="ZDi-Uz-Z01"/>
+                            <constraint firstAttribute="trailing" secondItem="mFW-YX-qLk" secondAttribute="trailing" id="trK-rs-hIf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Select Genre" id="91P-DX-276">
+                        <barButtonItem key="backBarButtonItem" title=" " id="dL3-nd-Y5S"/>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1540"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04F-Me-d9x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537.5" y="-591"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="UpF-2h-l8M">
+            <objects>
+                <tableViewController id="6Sf-Lc-bTL" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Oc-nS-xt2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="S6y-Hw-sjv">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S6y-Hw-sjv" id="z5m-Un-5dO">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6Sf-Lc-bTL" id="zha-7T-Azg"/>
+                            <outlet property="delegate" destination="6Sf-Lc-bTL" id="Chy-lO-4jz"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MxR-Es-iNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2200" y="-721"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="fKi-lN-N7u">
             <objects>
@@ -48,79 +155,22 @@
             </objects>
             <point key="canvasLocation" x="2168" y="319"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8oj-Uk-JnQ">
+        <!--Navigation Controller-->
+        <scene sceneID="w5d-QI-6F8">
             <objects>
-                <viewController id="8vO-m5-8sy" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uTG-EM-p5u"/>
-                        <viewControllerLayoutGuide type="bottom" id="hhj-AB-sFt"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="c6M-ci-L62">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riG-vD-vIU">
-                                <rect key="frame" x="0.0" y="20" width="375" height="1471"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dzu-b6-r8z">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1540"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AnP-i9-yZb">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
-                                                <state key="normal" backgroundImage="rock.jpg"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uk-rE-t0M">
-                                                <rect key="frame" x="0.0" y="168" width="375" height="168"/>
-                                                <state key="normal" backgroundImage="electro.jpg"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4p-n7-fZh">
-                                                <rect key="frame" x="0.0" y="336" width="375" height="168"/>
-                                                <state key="normal" backgroundImage="indie.jpg"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjL-G8-rlL">
-                                                <rect key="frame" x="0.0" y="504" width="375" height="168"/>
-                                                <state key="normal" backgroundImage="pop.jpg"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1N-Y7-YbN">
-                                                <rect key="frame" x="0.0" y="840" width="375" height="700"/>
-                                                <state key="normal" backgroundImage="hiphop.jpg"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KP-i7-stV">
-                                                <rect key="frame" x="0.0" y="672" width="375" height="168"/>
-                                                <state key="normal" backgroundImage="jazz.jpg"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1540" id="fM6-WM-HJN"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Dzu-b6-r8z" secondAttribute="bottom" id="35r-y9-tA5"/>
-                                    <constraint firstAttribute="trailing" secondItem="Dzu-b6-r8z" secondAttribute="trailing" id="TNO-yd-MZt"/>
-                                    <constraint firstItem="Dzu-b6-r8z" firstAttribute="leading" secondItem="riG-vD-vIU" secondAttribute="leading" id="Xjb-FC-n9A"/>
-                                    <constraint firstItem="Dzu-b6-r8z" firstAttribute="top" secondItem="riG-vD-vIU" secondAttribute="top" id="uJv-s6-YVN"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="hhj-AB-sFt" firstAttribute="top" secondItem="riG-vD-vIU" secondAttribute="bottom" id="Bfl-Hc-BSp"/>
-                            <constraint firstItem="riG-vD-vIU" firstAttribute="leading" secondItem="c6M-ci-L62" secondAttribute="leading" id="G5Q-Er-TBU"/>
-                            <constraint firstItem="Dzu-b6-r8z" firstAttribute="width" secondItem="c6M-ci-L62" secondAttribute="width" id="PWV-aM-aQz"/>
-                            <constraint firstAttribute="trailing" secondItem="riG-vD-vIU" secondAttribute="trailing" id="WqE-cD-qxQ"/>
-                            <constraint firstItem="riG-vD-vIU" firstAttribute="top" secondItem="uTG-EM-p5u" secondAttribute="bottom" id="gMS-Mk-jWP"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="ATG-3x-J45"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1540"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ydu-s1-IpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="lHv-7Y-vKb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="apd-2K-CBf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mD8-t4-PNM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Osf-4O-uVP" kind="relationship" relationship="rootViewController" id="cfk-iA-aQu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUs-Ro-RVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1529.5" y="-73"/>
+            <point key="canvasLocation" x="904" y="-271"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="zid-FY-wYR">
@@ -132,7 +182,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8vO-m5-8sy" kind="relationship" relationship="viewControllers" id="vNL-zP-ReZ"/>
+                        <segue destination="lHv-7Y-vKb" kind="relationship" relationship="viewControllers" id="Oe4-sJ-5cQ"/>
                         <segue destination="O7e-fU-vlG" kind="relationship" relationship="viewControllers" id="zYg-g5-m9D"/>
                     </connections>
                 </tabBarController>
